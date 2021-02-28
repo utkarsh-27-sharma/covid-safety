@@ -1,0 +1,187 @@
+body{
+  font-family: "Montserrat";
+  background-color: #CBE2B0;
+}
+/* .top-heading{
+  font-size: 5rem;
+} */
+
+.colored-section{
+  background-color: #543864;
+  color: #fff;
+  width: 100%;
+}
+.title-text{
+  width: 80%;
+  margin-right: 90px;
+}
+.title-image{
+  width: 70%;
+  margin: 20px auto 10px 85px;
+}
+.subtitle{
+  margin: auto auto 10px 40px;;
+}
+/* Navigation BAr */
+.navigation-bar{
+  margin-bottom: 30px;
+}
+.navbar{
+  padding-left: 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  color: #5b8c5a;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title Section*/
+
+#title .container-fluid{
+  padding: 3% 15% 3%;
+  text-align: left;
+}
+/* Headings */
+.section-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.big-heading{
+  text-align: center;
+  margin: 30px auto 60px;
+  font-size: 5rem;
+  line-height: 1.5;
+  color: #5b8c5a;
+}
+h2, h3{
+  margin: 30px auto 40px;
+  text-align: center;
+}
+h6{
+  font-size: 0.75rem;
+}
+hr{
+  border: dotted #5b8c5a 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 70px auto;
+}
+p{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+.symptoms-text{
+  text-align: left;
+}
+.request{
+  font-size: 1.5rem;
+  color: #543864;
+  font-weight: bold;
+}
+.advice{
+  font-weight: bold;
+}
+.safety-images{
+  width: 30%;
+}
+/* Live Corona Count section */
+.corona-count{
+  text-align: center;
+  align-items: center;
+}
+.corona-world-div{
+  background: #543864;
+  border-radius: 10px;
+  padding: 20px 20px; 
+  margin: 20px 10% 20px 30%;
+  width: 60%;
+}
+.corona-india-div{
+  background: #543864;
+  border-radius: 10px;
+  padding: 20px 20px; 
+  margin: 20px 30% 20px 10%;
+  width: 60%;
+}
+.corona-div h2{
+  margin-top: 15px;
+  font-weight: bolder;
+  color: #fff;
+}
+.corona-div p{
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.corona-div span{
+  color: #fff;
+  margin-bottom: 25px;
+}
+.corona-btn{
+  margin-top: 5px;;
+  font-weight: bold;
+}
+.eng-btn{
+  background-color:  #CBE2B0;
+  color: #5b8c5a;
+}
+.eng-btn:hover{
+  background-color: lightgreen;
+}
+.safety-measure-column{
+  text-align: center;
+  /* width: 450px; */
+  height: auto;
+}
+.tab-symptoms{
+  text-align: center;
+}
+.immunity{
+  text-align: center;
+}
+.immunity-poster{
+  width: 80%;
+}
+.social-hub{
+  text-align: center;
+  margin: 100px auto;
+}
+.social-item{
+  margin: 10px 45px;
+}
+.social-links{
+  color: #543864;
+}
+.social-links:hover{
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .corona-div{
+    width: 80%;
+  }
+  .btn{
+    padding: 6px 10px;
+  }
+  .corona-world-div{
+    width: 80%;
+    margin: 20px 10%;
+  }
+  .corona-india-div{
+    width: 80%;
+    margin: 20px 10%;
+  }
+
+}

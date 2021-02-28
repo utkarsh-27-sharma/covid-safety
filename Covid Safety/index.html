@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Safety from corona</title>
+
+  <link rel="icon" href="images/favicon.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- jquery scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./corona-count.js"></script>
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/v4-shims.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark navigation-bar">
+        <a class="navbar-brand" href="">Stay safe from corona</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#safety">Safety</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#symptoms">symptoms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social-hub">Gov social</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="title-text">
+              <h4><strong> <em>CORONAVIRUS</em> </strong></h5> <br>
+              Coronaviruses are a large family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East
+              Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.
+            </p> <br>
+            <p class="title-text">
+              <h5><strong> <em>COVID-19</em> </strong></h5> <br>
+              COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image" src="images/virus.png" alt="Virus">
+            <h3 class="subtitle"> <strong>COVID-19</strong> </h3>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+    <h1 class="big-heading"> <strong>Stay Safe from Coronavirus.</strong> </h1>
+
+    <div class="corona-count">
+    <h2> <strong>Know live Coronavirus cases</strong> </h2>
+    <div class="row corona-div">
+      <div class="abc col-lg-6 col-md-6 col-sm-12"">
+        <div class="corona-world-div">
+          <h2>World-wide</h2>
+          <p class="world-count"></p>
+          <span>To know more click on the button below -</span>
+          <a type="button" class="btn btn-outline-light btn-lg corona-btn" href="https://www.worldometers.info/coronavirus/">World-wide</a>
+        </div>
+      </div>
+      <div class=" col-lg-6 col-md-6 col-sm-12"">
+        <div class="corona-india-div">
+          <h2>India</h2>
+          <p class="india-count"></p>
+          <span>To know more click on the button below -</span>
+          <a type="button" class="btn btn-outline-light btn-lg corona-btn"href="https://www.covid19india.org/">India's count</a>
+        </div>
+      </div>
+    </div>
+  </div> <br>
+
+    <h2 id="symptoms"> <strong>Symptoms of Coronavirus</strong> </h2>
+
+    <table class="table tab-symptoms">
+      <tr>
+        <td class="advice">fever</td>
+        <td class="advice">tiredness</td>
+        <td class="advice">dry cough</td>
+      </tr>
+      <tr>
+        <td class="advice">aches</td>
+        <td class="advice">pains</td>
+        <td class="advice">nasal congestions</td>
+      </tr>
+      <tr>
+        <td class="advice">runny nose</td>
+        <td class="advice">sore throat</td>
+        <td class="advice">diarrhea</td>
+      </tr>
+      <tr>
+
+      </tr>
+    </table>
+    <p class="advice symptoms-text">• Some people become infected but don’t develop any symptoms and don't feel unwell.<br>
+      • Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. <br>
+      • Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness.
+    </p>
+    <hr>
+
+
+
+  <section class="white-section">
+
+
+
+    <h3 id="safety"> <strong>Some of the safety measures we must take</strong> </h3>
+    <p class="request"> Humble request from "UTKARSH". </p> <br>
+
+    <div class="row">
+      <div class="safety-measure-column  col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="safety-images" src="images/stay-home.png" alt="stay-home">
+          </div>
+          <div class="card-body">
+            <p class="advice" >Stay at home.</p>
+            <h6>Listen about it.</h6>
+            <button type="button" class="btn eng-btn lang-btn en-stay-home"> <strong>English</strong></button>
+            <button type="button" class="btn eng-btn lang-btn hin-stay-home"> <strong>Hindi</strong></button>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="safety-measure-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="safety-images" src="images/public.png" alt="public"> <br>
+          </div>
+          <div class="card-body">
+            <p class="advice" >Avoid public gatherings.</p>
+            <h6>Listen about it.</h6>
+            <button type="button" class="btn eng-btn lang-btn en-public"> <strong>English</strong></button>
+            <button type="button" class="btn eng-btn lang-btn hin-public"> <strong>Hindi</strong></button>
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <div class="safety-measure-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="safety-images" src="images/mask.png" alt="mask">
+          </div>
+          <div class="card-body">
+            <p class="advice" >Cover your face.</p>
+            <h6>Listen about it.</h6>
+            <button type="button" class="btn eng-btn lang-btn en-mask"> <strong>English</strong></button>
+            <button type="button" class="btn eng-btn lang-btn hin-mask"> <strong>Hindi</strong></button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="safety-measure-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="safety-images" src="images/face.png" alt="face">
+          </div>
+          <div class="card-body">
+            <p class="advice" >Don't Touch your face.</p>
+            <h6>Listen about it.</h6>
+            <button type="button" class="btn eng-btn lang-btn en-face"> <strong>English</strong></button>
+            <button type="button" class="btn eng-btn lang-btn hin-face"> <strong>Hindi</strong></button>
+          </div>
+        </div> <br>
+      </div>
+
+      <div class="safety-measure-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="safety-images" src="images/distancing.png" alt="distancing">
+          </div>
+          <div class="card-body">
+            <p class="advice" >Maintain distance.</p>
+            <h6>Listen about it.</h6>
+            <button type="button" class="btn eng-btn lang-btn en-distancing"> <strong>English</strong></button>
+            <button type="button" class="btn eng-btn lang-btn hin-distancing"> <strong>Hindi</strong></button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="safety-measure-column col-lg-4 col-md-6 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <img class="safety-images" src="images/wash-hands.png" alt="wash-hands">
+          </div>
+          <div class="card-body">
+            <p class="advice" >Wash your hands.</p>
+            <h6>Listen about it.</h6>
+            <button type="button" class="btn eng-btn lang-btn en-wash-hands"> <strong>English</strong></button>
+            <button type="button" class="btn eng-btn lang-btn hin-wash-hands"> <strong>Hindi</strong></button>
+          </div>
+        </div>
+        <br>
+      </div>
+
+    </div>
+
+  </section>
+  <hr>
+
+
+  <h2><strong>Immunity Boosting Measures for self-care</strong></h2>
+  <div class="immunity">
+    <img class="immunity-poster" src="images/immunity.jpeg" alt="immunity-poster">
+  </div>
+  <hr>
+
+  
+  <br>
+  <h2><strong>India's MYGOV Social hub</strong></h2>
+
+  <div id="social-hub"class="social-hub row">
+    <div class="col-lg-2 col-md-4 col-sm-4">
+      <i class="fab social-item fa-facebook fa-5x"></i> <br>  <a class="social-links advice" href="https://www.facebook.com/MyGovIndia/">Facebook</a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-4">
+      <i class="fab social-item fa-instagram fa-5x"></i> <br> <a class="social-links advice" href="https://www.instagram.com/mygovindia/">Instagram</a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-4">
+      <i class="fab social-item fa-facebook-messenger fa-5x"></i> <br> <a class="social-links advice" href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2FMyGovIndia"> Facebook-messenger </a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-4">
+      <i class="fab social-item fa-telegram fa-5x"></i> <br> <a class="social-links advice" href="https://t.me/MyGovCoronaNewsdesk"> Telegram </a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-4">
+      <i class="fab social-item fa-twitter fa-5x"></i> <br> <a class="social-links advice" href="https://twitter.com/mygovindia"> Twitter </a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-4">
+      <i class="fab social-item fa-youtube fa-5x"></i> <br> <a class="social-links advice" href="https://www.youtube.com/mygovindia"> Youtube </a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-4">
+
+    </div>
+
+
+  </div>
+
+  <hr> 
+  <p>
+    <a target="_blank" class="footer-link" href="https://www.linkedin.com/in/utkarsh-sharma-81a9a4175/">LinkedIn</a>
+    <a target="_blank" class="footer-link" href="https://github.com/utkarsh-27-sharma">GitHub</a>
+    <a target="_blank" class="footer-link" href="https://www.instagram.com/_uttkarsh__/">Instagram</a>
+    <p class="copyright">© Utkarsh Sharma.2021</p>
+  </p>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
